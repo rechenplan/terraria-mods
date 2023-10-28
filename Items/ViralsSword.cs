@@ -46,36 +46,6 @@ namespace ViralsMod.Items
         public override void ModifyHitNPC(Player player, NPC target, ref NPC.HitModifiers modifiers)
         {
             target.AddBuff(BuffID.OnFire, 600);
-
-			TagCompound tag = new TagCompound();
-			if (tag.GetInt("durability") > 0)
-			{
-				tag["durability"] = tag.GetInt("durability") - 1;
-				SaveData(tag);
-			}
         }
-
-        public override void SaveData(TagCompound tag)
-        {
-            tag["durability"] = tag.GetInt("durability");
-        }
-
-        public override void LoadData(TagCompound tag)
-        {
-			tag["durability"] = tag.GetInt("durability");
-        }
-
-		public int defaultDurability = 100;
-
-        public override void OnCraft(Recipe recipe)
-        {
-            TagCompound tag = new TagCompound();
-			tag["durability"] = defaultDurability;
-        }
-
-		public static void LowerDurability(ModItem item, TagCompound tag)
-		{
-
-		}
     }
 }

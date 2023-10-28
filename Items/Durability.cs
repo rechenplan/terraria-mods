@@ -34,15 +34,14 @@ namespace ViralsMod.Items
 
         public override void OnCreated(Item item, ItemCreationContext context)
         {
-            durability = 100;
+            if (item.damage > 0)
+                durability = 100;
         }
 
         public override void ModifyHitNPC(Item item, Player player, NPC target, ref NPC.HitModifiers modifiers)
         {
             if (durability > 0)
                 durability--;
-            else
-                item.TurnToAir();
 
             TagCompound tag = new TagCompound();
 
