@@ -1,0 +1,10 @@
+Mods: {
+	tmoddurability: {
+		Items: {
+			tmodDurabilityTestSword: {
+				Tooltip: ""
+				DisplayName: tmod Durability Test Sword
+			}
+		}
+	}
+}

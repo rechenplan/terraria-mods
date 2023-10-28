@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ViralsMod\\ViralsMod.csproj",
-      "projectName": "ViralsMod",
-      "projectPath": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ViralsMod\\ViralsMod.csproj",
+      "projectUniqueName": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\tmoddurability\\tmoddurability.csproj",
+      "projectName": "tmoddurability",
+      "projectPath": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\tmoddurability\\tmoddurability.csproj",
       "packagesPath": "C:\\Users\\Sepul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ViralsMod\\obj\\",
+      "outputPath": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\tmoddurability\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sepul\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
 using System.IO;
 
-namespace ViralsMod.Items
+namespace tmoddurability.Items
 {
     public class DurabilityGlobalItem : GlobalItem
     {
@@ -52,7 +52,14 @@ namespace ViralsMod.Items
         {
             if (durability > 0)
             {
-                tooltips.Add(new TooltipLine(Mod, "durability", $"Durability: {durability}") { OverrideColor = Color.LightGreen });
+                float durabilityPercentage = (float)durability / 100f; // Calculate durability as a percentage
+
+                Color color = Color.Lerp(Color.Red, Color.Green, durabilityPercentage); // Interpolate color based on durability
+
+                TooltipLine durabilityLine = new TooltipLine(Mod, "Durability", $"Durability: {durability}");
+                durabilityLine.OverrideColor = color;
+
+                tooltips.Add(durabilityLine);
             }
         }
 

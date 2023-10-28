@@ -1,3 +1,3 @@
-displayName = Viral's Mod
-author = ViralStrain
+displayName = tmod Durability
+author = ViralStrain & Orby
 version = 0.1
