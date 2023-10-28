@@ -52,9 +52,9 @@ namespace tmoddurability.Items
         {
             if (durability > 0)
             {
-                float durabilityPercentage = (float)durability / 100f; // Calculate durability as a percentage
+                float durabilityPercentage = durability / 100f;
 
-                Color color = Color.Lerp(Color.Red, Color.Green, durabilityPercentage); // Interpolate color based on durability
+                Color color = Color.Lerp(Color.Red, Color.Green, durabilityPercentage);
 
                 TooltipLine durabilityLine = new TooltipLine(Mod, "Durability", $"Durability: {durability}");
                 durabilityLine.OverrideColor = color;
