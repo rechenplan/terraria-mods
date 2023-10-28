@@ -1,0 +1,3 @@
+displayName = Viral's Mod
+author = ViralStrain
+version = 0.1

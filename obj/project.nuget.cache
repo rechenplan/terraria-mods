@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jB/iH9QPyRcO7CdXFaav0d1CxPDTBTHyXxqxrtDm8EHOeex7/J6mvFMRKif9PcREfoEF9WXuVDm59f1eYmSm0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sepul\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ViralsMod\\ViralsMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sepul\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
